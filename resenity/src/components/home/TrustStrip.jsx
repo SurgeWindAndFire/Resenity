@@ -3,10 +3,10 @@ export default function TrustStrip() {
     <section className="section strip" aria-label="Principles">
       <div className="container strip-inner">
         <ul className="strip-items" aria-label="Resenity principles">
-          <li>Built for ranked play</li>
-          <li>Data-driven insights</li>
-          <li>Explainable predictions</li>
-          <li>LoL now, more later</li>
+          <li>Built for Competitive Matches</li>
+          <li>Data-Driven and Reliable Insights</li>
+          <li>Easy to Understand Predictions</li>
+          <li>League Platform 1st, Future Games Coming Soon</li>
         </ul>
       </div>
     </section>

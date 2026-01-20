@@ -14,14 +14,14 @@ export default function RoadmapTeaserSection() {
     <section className="section" aria-label="Coming next">
       <div className="container">
         <header className="section-header">
-          <h2>Coming next</h2>
-          <p className="muted">Designed to expand beyond LoL when we’re ready.</p>
+          <h2>Coming Soon</h2>
+          <p className="muted">Service to be expanded beyond League of Legends when we're ready.</p>
         </header>
 
         <div className="grid-3" role="list">
-          <RoadmapItem title="Champion draft synergy" />
-          <RoadmapItem title="Team dashboards" />
-          <RoadmapItem title="More games support" />
+          <RoadmapItem title="Champion Draft Synergy" />
+          <RoadmapItem title="Team Dashboards" />
+          <RoadmapItem title="Future Games Support" />
         </div>
       </div>
     </section>

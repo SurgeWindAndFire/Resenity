@@ -10,7 +10,7 @@ export default function FinalCTASection() {
 
           <div className="cta-actions">
             <a className="btn btn-primary" href="#demo">
-              Test our product
+              Try our service
             </a>
             <a className="btn btn-ghost" href="/login">
               Sign in

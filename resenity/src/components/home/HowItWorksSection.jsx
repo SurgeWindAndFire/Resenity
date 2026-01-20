@@ -18,7 +18,7 @@ export default function HowItWorksSection() {
       <div className="container how-grid">
         <div>
           <header className="section-header">
-            <h2>How it works</h2>
+            <h2>How Does our Service Work?</h2>
             <p className="muted">Only three simple steps to fully utilize our service!</p>
           </header>
 

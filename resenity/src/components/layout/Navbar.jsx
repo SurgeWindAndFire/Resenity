@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="nav-links" aria-label="Primary navigation">
           <a href="#features">Features</a>
           <a href="#how">How it Works</a>
-          <a href="#demo">Demo</a>
+          <a href="#demo">Demonstration</a>
         </div>
 
         <div className="nav-actions">
@@ -18,7 +18,7 @@ export default function Navbar() {
             Sign in
           </a>
           <a className="btn btn-primary" href="#demo">
-            Try Demo
+            Try our service
           </a>
         </div>
       </div>
