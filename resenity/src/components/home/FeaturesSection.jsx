@@ -14,14 +14,14 @@ export default function FeaturesSection() {
     <section id="features" className="section" aria-label="Features">
       <div className="container">
         <header className="section-header">
-          <h2>What you get</h2>
-          <p className="muted">Everything you need to read a match quickly.</p>
+          <h2>What data does Resenity provide?</h2>
+          <p className="muted">Everything you need to determine the outcome of a match.</p>
         </header>
 
         <div className="grid-3" role="list">
-          <FeatureCard title="Win Probability" description="Fast predictions you can trust." />
-          <FeatureCard title="Why It Predicts This" description="Know what mattered most at a glance." />
-          <FeatureCard title="History & Progress" description="Save predictions and learn over time." />
+          <FeatureCard title="Win Probability" description="Quick predictions you can rely on." />
+          <FeatureCard title="Probability Reasoning" description="Know the exact reasoning for the outcome of your game." />
+          <FeatureCard title="History & Progress" description="Save predictions to learn what to do in future matches." />
         </div>
       </div>
     </section>
