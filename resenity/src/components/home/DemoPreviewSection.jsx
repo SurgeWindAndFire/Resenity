@@ -21,11 +21,11 @@ function DemoResult({ teamA, teamB, confidence, factors }) {
     <div className="demo-result">
       <div className="rows" role="group" aria-label="Demo odds">
         <div className="row">
-          <span className="team-chip">Team A</span>
+          <span className="team-chip">Red Team</span>
           <strong>{teamA}%</strong>
         </div>
         <div className="row">
-          <span className="team-chip">Team B</span>
+          <span className="team-chip">Blue Team</span>
           <strong>{teamB}%</strong>
         </div>
       </div>
@@ -42,7 +42,7 @@ function DemoResult({ teamA, teamB, confidence, factors }) {
       </div>
 
       <div className="why" aria-label="Top factors">
-        <h4>Top factors</h4>
+        <h4>Key Factors</h4>
         <div className="chip-row">
           {factors.map((f) => (
             <span key={f} className="chip">
@@ -66,14 +66,14 @@ export default function DemoPreviewSection() {
     <section id="demo" className="section" aria-label="Demo preview">
       <div className="container">
         <header className="section-header">
-          <h2>See a prediction in seconds</h2>
-          <p className="muted">Run a demo match—no login required.</p>
+          <h2>See a prediction in only seconds</h2>
+          <p className="muted">Run a test match (no login required).</p>
         </header>
 
         <div className="demo-grid">
           <article className="card" aria-label="Demo inputs">
             <header className="card-header">
-              <h3>Demo Setup</h3>
+              <h3>Test Setup</h3>
             </header>
 
             <form
@@ -90,16 +90,16 @@ export default function DemoPreviewSection() {
               </div>
 
               <div className="field">
-                <label htmlFor="preset">Preset match</label>
+                <label htmlFor="preset">Match Variables</label>
                 <select id="preset" name="preset" defaultValue="balanced">
-                  <option value="balanced">Balanced teams</option>
-                  <option value="rankgap">Rank gap</option>
-                  <option value="hotstreak">Hot streak</option>
+                  <option value="balanced">Balanced Teams</option>
+                  <option value="rankgap">Rank Gap</option>
+                  <option value="hotstreak">Hot Streak</option>
                 </select>
               </div>
 
               <button className="btn btn-primary" type="submit">
-                Run Demo Prediction
+                Run Test Prediction
               </button>
             </form>
           </article>
@@ -117,7 +117,7 @@ export default function DemoPreviewSection() {
                 teamA={62}
                 teamB={38}
                 confidence="Medium"
-                factors={["Higher avg rank", "Stronger recent form", "Better role balance"]}
+                factors={["Higher Average Rank", "Stronger Skirmishes", "Better Objective Control"]}
               />
             )}
           </article>
