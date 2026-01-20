@@ -6,14 +6,15 @@ export default function HeroSection() {
       <div className="container hero-grid">
         <div className="hero-copy">
           <div className="pill" role="note">
-            LoL-first • Multi-game ready
+            League of Legends Platform 1st • New Competitive Games Coming Soon
           </div>
 
-          <h1>Calm insight for competitive gaming.</h1>
+          <h1>The Full Insights to Everything in Competitive Gaming.</h1>
 
           <p className="lead">
-            Resenity turns match data into clear win predictions and simple “why”
-            explanations—starting with League of Legends.
+            Resenity allows users to turn their game data into simple explanations
+            and winning odds, helping them make the best decisions and improve their
+            performance to help win more games.
           </p>
 
           <div className="hero-cta">
@@ -25,12 +26,12 @@ export default function HeroSection() {
             </a>
           </div>
 
-          <p className="muted small">No account needed for demo.</p>
+          <p className="muted small">Account not needed for demo.</p>
 
           <ul className="hero-highlights" aria-label="Key highlights">
-            <li>Win odds</li>
-            <li>Simple explanations</li>
-            <li>Saved history</li>
+            <li>Winning Odds</li>
+            <li>Simple and Fluent Explanations</li>
+            <li>Saved History</li>
           </ul>
         </div>
 
