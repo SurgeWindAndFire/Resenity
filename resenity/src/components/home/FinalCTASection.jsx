@@ -4,13 +4,13 @@ export default function FinalCTASection() {
       <div className="container">
         <div className="card cta">
           <div>
-            <h2>Ready to see the game clearly?</h2>
-            <p className="muted">Try a demo now, then save predictions when you’re ready.</p>
+            <h2>Ready to take your game to the next level?</h2>
+            <p className="muted">Test out our platform now, then save predictions when you're ready.</p>
           </div>
 
           <div className="cta-actions">
             <a className="btn btn-primary" href="#demo">
-              Try Demo
+              Test our product
             </a>
             <a className="btn btn-ghost" href="/login">
               Sign in

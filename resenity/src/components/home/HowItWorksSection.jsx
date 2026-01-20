@@ -19,19 +19,19 @@ export default function HowItWorksSection() {
         <div>
           <header className="section-header">
             <h2>How it works</h2>
-            <p className="muted">Three steps from match setup to clarity.</p>
+            <p className="muted">Only three simple steps to fully utilize our service!</p>
           </header>
 
           <ol className="steps" aria-label="Steps">
-            <Step number="1" title="Create a match" description="Add players or choose a preset." />
-            <Step number="2" title="Get the odds" description="Instant prediction + confidence." />
-            <Step number="3" title="Understand the why" description="Top factors visualized clearly." />
+            <Step number="1" title="Create a Match" description="Add any number of players or choose from one of our ready-made presets." />
+            <Step number="2" title="Print out the Odds" description="Our service generates a report containing the prediction and confidence level." />
+            <Step number="3" title="Understand the Why" description="A detailed explanation of the key factors contributing to the prediction will also be made." />
           </ol>
         </div>
 
         <div className="card">
           <header className="card-header">
-            <h3>Preview</h3>
+            <h3>Example</h3>
           </header>
           <div className="flow" role="img" aria-label="Flow diagram placeholder" />
         </div>
