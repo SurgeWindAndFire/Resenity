@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import Navbar from "../components/layout/Navbar";
-import { getUserPredictions, deletePrediction } from "../services/predictionService";
+import { getUserPredictions, deletePrediction } from "../services/predictionServices";
 import "../styles/history.css";
 
 export default function History() {

@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
 import ProtectedRoute from "./components/auth/ProtectedRoute";
-
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
@@ -31,6 +30,14 @@ export default function App() {
             element={
               <ProtectedRoute>
                 <CreateMatch />
+              </ProtectedRoute>
+            } 
+          />
+          <Route 
+            path="/dashboard/history" 
+            element={
+              <ProtectedRoute>
+                <History />
               </ProtectedRoute>
             } 
           />

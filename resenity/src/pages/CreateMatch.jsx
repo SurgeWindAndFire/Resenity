@@ -5,7 +5,7 @@ import Navbar from "../components/layout/Navbar";
 import TeamBuilder from "../components/match/TeamBuilder";
 import PredictionResult from "../components/match/PredictionResult";
 import { calculatePrediction } from "../utils/prediction";
-import { savePrediction } from "../services/predictionService";
+import { savePrediction } from "../services/predictionServices";
 import "../styles/match.css";
 
 const emptyPlayer = { name: "", rank: "Gold", winRate: 50 };
