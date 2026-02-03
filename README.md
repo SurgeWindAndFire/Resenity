@@ -17,21 +17,22 @@ If you are developing a production application, we recommend using TypeScript wi
 
 # Resenity
 
-> Calm insight for competitive gaming
+> The Straightfoward insight for the future of competitive gaming.
 
 **Live Demo**: [resenity-web.vercel.app](https://resenity-web.vercel.app/) 🚀
 
-## 🎯 What is Resenity?
+## What is Resenity?
 
-Resenity helps competitive gamers make smarter pre-game decisions by turning complex match data into clear, explainable win predictions.
+Resenity helps competitive gamers make smarter pre-game decisions by turning complex match data into clear, explainable win predictions. 
+The website provides their services to professional gamers who use their platform to choose which games they should play.
 
-**The Problem**: Players face information overload before matches — scattered stats, unclear matchups, and gut-feel decisions.
+**The Key Problem**: Players are often left wondering and confused before matches due to stats being scattered everywhere, unclear matchups, and polarizing decisions.
 
-**Our Solution**: Simple, data-driven predictions with clear "why" explanations, designed for League of Legends (with multi-game support planned).
-
+**The Solution**: Combine everything necessary tool together to produce an easy-to-read service, providing predictions before your next match starts with detailed
+reasoning (Plans for multiple competitive titles are coming soon in the future).
 ---
 
-## ✨ Features
+## Features
 
 - **Win Probability** — Fast, reliable match outcome predictions
 - **Explainable Insights** — Understand exactly why one team has an edge
@@ -83,59 +84,20 @@ npm run build
 npm run preview
 ```
 
----
+## Roadmap
 
-## 📂 Project Structure
-```
-resenity/
-├── src/
-│   ├── components/
-│   │   ├── home/          # Homepage sections
-│   │   └── layout/        # Reusable layout components
-│   ├── pages/             # Route pages
-│   ├── styles/            # CSS modules
-│   └── App.jsx
-├── public/
-└── index.html
-```
+TBD
 
----
-
-## 🎯 Roadmap
-
-### ✅ Phase 1: Homepage MVP
-- [x] Landing page design
-- [x] Demo preview section
-- [x] Responsive layout
-- [x] Deployed to Vercel
-
-### 🔜 Phase 2: Authentication
-- [ ] Firebase Auth integration
-- [ ] Login/signup pages
-- [ ] Protected routes
-
-### ⏳ Phase 3: Core Features
-- [ ] Create match flow
-- [ ] Prediction algorithm
-- [ ] Match history & saving
-
-### 🌟 Phase 4: Advanced
-- [ ] Riot API integration
-- [ ] Multi-game support
-- [ ] Public leaderboards
-
----
-
-## 📧 Contact
+## Contact
 
 **Project Link**: [github.com/SurgeWindAndFire/Resenity](https://github.com/SurgeWindAndFire/Resenity)
 
 ---
 
-## 📄 License
+## License
 
 MIT License
 
 ---
 
-**Built with focus on clean code, UX, and scalability.** 🚀
+**Built with focus on clean code, UX, and scalability.** 

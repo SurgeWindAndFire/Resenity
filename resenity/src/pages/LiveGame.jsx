@@ -52,7 +52,6 @@ export default function LiveGame() {
 
     setGameData(result);
 
-    // Calculate prediction from the live game data
     const team1 = result.blueTeam.map(p => ({
       name: p.name,
       rank: p.rank,
@@ -65,7 +64,6 @@ export default function LiveGame() {
       winRate: p.winRate
     }));
 
-    // Pad teams to 5 if needed
     while (team1.length < 5) {
       team1.push({ name: "Unknown", rank: "Gold", winRate: 50 });
     }
