@@ -20,51 +20,52 @@ export default function App() {
         <AuthProvider>
           <ToastProvider>
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/demo" element={<Demo />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/signup" element={<Signup />} />
-              <Route 
-                path="/dashboard" 
-                element={
-                  <ProtectedRoute>
-                    <Dashboard />
-                  </ProtectedRoute>
-                } 
-              />
-              <Route 
-                path="/dashboard/create-match" 
-                element={
-                  <ProtectedRoute>
-                    <CreateMatch />
-                  </ProtectedRoute>
-                } 
-              />
-              <Route 
-                path="/dashboard/history" 
-                element={
-                  <ProtectedRoute>
-                    <History />
-                  </ProtectedRoute>
-                } 
-              />
-              <Route 
-                path="/dashboard/prediction/:id" 
-                element={
-                  <ProtectedRoute>
-                    <ViewPrediction />
-                  </ProtectedRoute>
-                } 
-              />
-              <Route 
-                path="/dashboard/live-game" 
-                element={
-                  <ProtectedRoute>
-                    <LiveGame />
-                  </ProtectedRoute>
-                } 
-              />
-            </Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/demo" element={<Demo />} />
+  <Route path="/login" element={<Login />} />
+  <Route path="/signup" element={<Signup />} />
+  <Route 
+    path="/dashboard" 
+    element={
+      <ProtectedRoute>
+        <Dashboard />
+      </ProtectedRoute>
+    } 
+  />
+  <Route 
+    path="/dashboard/create-match" 
+    element={
+      <ProtectedRoute>
+        <CreateMatch />
+      </ProtectedRoute>
+    } 
+  />
+  <Route 
+    path="/dashboard/history" 
+    element={
+      <ProtectedRoute>
+        <History />
+      </ProtectedRoute>
+    } 
+  />
+  <Route 
+    path="/dashboard/prediction/:id" 
+    element={
+      <ProtectedRoute>
+        <ViewPrediction />
+      </ProtectedRoute>
+    } 
+  />
+  <Route 
+    path="/dashboard/live-game" 
+    element={
+      <ProtectedRoute>
+        <LiveGame />
+      </ProtectedRoute>
+    } 
+  />
+  <Route path="*" element={<NotFound />} />
+</Routes>
           </ToastProvider>
         </AuthProvider>
       </Router>
