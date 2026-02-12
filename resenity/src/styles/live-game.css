@@ -3,7 +3,6 @@
   min-height: calc(100vh - 70px);
 }
 
-/* Page Header */
 .page-header {
   display: flex;
   justify-content: space-between;
@@ -17,7 +16,6 @@
   margin-bottom: 8px;
 }
 
-/* Search Section */
 .live-game-search {
   margin-bottom: 40px;
 }
@@ -65,7 +63,6 @@
   padding: 60px 0;
 }
 
-/* Game Info */
 .game-info {
   display: flex;
   justify-content: center;
@@ -92,7 +89,6 @@
   color: rgba(232, 238, 252, 0.7);
 }
 
-/* Teams Comparison */
 .teams-comparison {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -122,7 +118,6 @@
   font-size: 18px;
 }
 
-/* Player List */
 .player-list {
   list-style: none;
   padding: 0;
@@ -146,7 +141,6 @@
   background: rgba(255, 255, 255, 0.04);
 }
 
-/* Role and Champion */
 .player-role-champion {
   display: flex;
   align-items: center;
@@ -186,7 +180,6 @@
   white-space: nowrap;
 }
 
-/* VS Badge */
 .vs-badge {
   display: flex;
   align-items: center;
@@ -197,7 +190,6 @@
   padding-top: 60px;
 }
 
-/* Save Section */
 .save-section {
   display: flex;
   justify-content: center;
@@ -211,7 +203,6 @@
   color: #16ddb2;
 }
 
-/* Instructions */
 .instructions {
   max-width: 600px;
   margin: 40px auto;
@@ -245,7 +236,6 @@
   font-style: italic;
 }
 
-/* Mobile Responsive */
 @media (max-width: 768px) {
   .page-header {
     flex-direction: column;

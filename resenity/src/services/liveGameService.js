@@ -1,4 +1,4 @@
-import { getChampionById, inferRoleFromChampion } from '../data/champions';
+import { getChampionById, CHAMPIONS } from '../data/champions';
 import { lookupSummoner, normalizeRank } from './riotService';
 
 export async function fetchLiveGame(gameName, tagLine) {
@@ -116,8 +116,6 @@ async function processTeam(players) {
 
 function inferRoleFromChampionWithContext(championName, assignedRoles) {
   if (!championName) return getNextAvailableRole(assignedRoles);
-  
-  const { CHAMPIONS, getChampionPrimaryRole } = require('../data/champions');
   
   const champion = CHAMPIONS[championName];
   if (!champion) return getNextAvailableRole(assignedRoles);
